@@ -1,0 +1,1440 @@
+@font-face {
+  font-family: 'Futur';
+  src: url('design/futuramediumc.otf');
+  src:
+    local('Lovely Font'),
+    local('Lovely-Font'),
+    url('design/futuramediumc.otf') format('opentype');
+}
+
+body {
+  font-family: 'Futur', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: #cbcbcb;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #7d7d7d;
+  padding-bottom: 20px;
+}
+
+#main {
+  background: linear-gradient(to bottom, #220000, #880000);
+}
+
+#photos-id {
+  background: linear-gradient(to bottom, #880000, #220000);
+}
+
+#tour {
+  background: linear-gradient(to bottom, black, #5d0000);
+  margin-bottom: -4px;
+}
+
+#lyrics {
+  background-color: #210303;
+  margin-bottom: -4px;
+}
+
+#contacts {
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+}
+
+/* Header */
+.background-main {
+  margin: 0 10% 0 10%;
+  position: relative;
+  padding-bottom: 15%;
+}
+
+.background-head {
+  background-color: black;
+  /* margin: 0 7% 0 7%; */
+  padding-bottom: 300px;
+}
+
+.container-head {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.head {
+  text-align: center;
+}
+
+.head-picture {
+  height: 300px;
+  /* width: 620px; */
+}
+
+.navbar-toggler-main {
+  margin-top: 10px;
+}
+
+/* Main */
+.EP-Picture {
+  height: 550px;
+  box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+}
+
+.main-text {
+  text-align: center;
+  padding-top: 200px;
+  line-height: 1.5;
+}
+
+.download-button {
+  margin-bottom: 100px;
+}
+
+.main-H1 {
+  color: #F0F2F0;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px black;
+}
+
+.hidePlayerButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hideButton {
+    display: flex;
+    background: linear-gradient(to top, #610101, #880000);
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 400px;
+  height: 120px;
+  margin: 20px;
+  font-size: 4rem;
+  cursor: pointer;
+  border: 2px solid black;
+    border-radius: 25px;
+    color: wheat;
+}
+
+.fab-download {
+  color: white;
+}
+
+#player {
+    background: #880000;
+    
+    align-items: center;
+  justify-content: center;
+}
+
+#playerFrame{
+    background: #880000;
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+
+
+@media (max-width: 575.98px) {
+  .arts {
+    margin: 5% 2% 0 2%;
+    width: 80%;
+    box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+  }
+
+  .photo-art {
+    text-align: center;
+  }
+
+  .EP-Picture {
+    height: 915px;
+    box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+  }
+
+  .shows-H1 {
+    font-size: 110px;
+    color: #F0F2F0;
+    font-family: 'Futur', sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    text-shadow: 5px 2px 6px #730808;
+    /* background: linear-gradient(to bottom, #210303, #000000); */
+    margin-bottom: 0px;
+  }
+
+  .background-main {
+    position: relative;
+    padding-bottom: 75px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  .listen-pics {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .lyrics-H1 {
+    padding-bottom: 12px;
+    font-size: 110px;
+    color: #F0F2F0;
+    font-family: 'Futur', sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    text-shadow: 5px 2px 6px #730808;
+    background: linear-gradient(to bottom, #220000, black);
+    margin-bottom: 0px;
+  }
+
+  .col-sm {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .head-picture {
+    width: 100%;
+  }
+
+  .container-head {
+    margin-top: 0;
+  }
+
+  .background-head {
+    padding-bottom: 30px;
+  }
+
+  .main-text {
+    padding-top: 75px;
+  }
+
+  .nav-item {
+    border-radius: 15px;
+    background: linear-gradient(to right, #fff, #232526);
+  }
+
+  .active {
+    border-radius: 15px;
+    background: linear-gradient(to right, #fff, #232526);
+  }
+
+  .navbar-nav {
+    border-radius: 25px;
+    padding-right: 687px;
+    opacity: 0.63;
+  }
+
+  .navbar-toggler-main {
+    margin-right: 900px;
+  }
+
+  .navbar-toggler-icon {
+    width: 2.5em;
+    height: 2.5em;
+  }
+
+  .nav-link {
+    padding-left: 15px;
+    font-size: 22px;
+    color: white;
+  }
+
+  .nav-link-text {
+    padding-left: 15px;
+    font-size: 22px;
+    color: white;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  #playerFrame{
+    flex-direction: column;
+}
+
+
+  .main-H1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-shadow: 1px 1px 5px black;
+  }
+
+  .box-H1 {
+    padding-top: 30px;
+  }
+
+  .contacts-row {
+    text-align: center;
+    padding-left: 217px;
+    max-width: 100%;
+    padding-bottom: 40px;
+  }
+
+  .contact-H1 {
+    text-align: center;
+    padding: 30px 0 30px 0;
+  }
+
+  .download-button {
+    margin: 0 3% 10% 3%;
+    color: #cbcbcb;
+  }
+
+  .tour-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+    margin-top: 41px;
+    margin-bottom: 50px;
+    opacity: 0.8;
+  }
+
+  .photos {
+    text-align: center;
+  }
+
+  .our-pictures {
+    width: 40%;
+    border-radius: 3%;
+    margin: 10px 20px 20px 10px;
+    opacity: 0.86;
+  }
+
+  /* Lyrics */
+  #lyrics {
+    background-color: black;
+    color: #fff;
+  }
+
+  .container-lyrics {
+    max-width: 100%;
+  }
+
+  .lyrics-row {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border: 1px;
+    border-color: black;
+  }
+
+  .lyrics-row-top {
+    text-align: center;
+    padding-top: 60px;
+    border: 1px;
+    border-color: black;
+  }
+
+  .black {
+    background-color: black;
+    padding: 30px;
+  }
+
+  /* Tour */
+  .background-tour {
+    margin: 5% 10% 5% 10%;
+    position: relative;
+  }
+
+  .h1-tour {
+    text-align: center;
+  }
+
+  .header-shows {
+    text-align: center;
+    margin-top: 5%;
+    color: #cbcbcb;
+  }
+
+  .contact-us {
+    text-align: center;
+    color: #fff;
+  }
+
+  .contacts-row {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .box-h1 {
+    padding-top: 100px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .arts {
+    margin: 5% 2% 0 2%;
+    width: 80%;
+    box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+  }
+
+  .photo-art {
+    text-align: center;
+  }
+
+  .background-main {
+    position: relative;
+    padding-bottom: 75px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  .shows-H1 {
+    font-size: 110px;
+    color: #F0F2F0;
+    font-family: 'Futur', sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    text-shadow: 5px 2px 6px #730808;
+    /* background: linear-gradient(to bottom, #210303, #000000); */
+    margin-bottom: 0px;
+  }
+
+  .listen-pics {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;  
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .lyrics-H1 {
+    padding-bottom: 12px;
+    font-size: 110px;
+    color: #F0F2F0;
+    font-family: 'Futur', sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    text-shadow: 5px 2px 6px #730808;
+    background: linear-gradient(to bottom, #220000, black);
+    margin-bottom: 0px;
+  }
+
+  .col-sm {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .head-picture {
+    width: 100%;
+  }
+
+  .container-head {
+    margin-top: 0;
+  }
+
+  .background-head {
+    padding-bottom: 30px;
+  }
+
+  .EP-Picture {
+    height: 915px;
+    box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+  }
+
+  .main-text {
+    padding-top: 75px;
+  }
+
+  .nav-item {
+    border-radius: 15px;
+    background: linear-gradient(to right, #fff, #232526);
+  }
+
+  .active {
+    border-radius: 15px;
+    background: linear-gradient(to right, #fff, #232526);
+  }
+
+  .navbar-nav {
+    border-radius: 25px;
+    padding-right: 687px;
+    opacity: 0.63;
+  }
+
+  .navbar-toggler-main {
+    margin-right: 900px;
+  }
+
+  .navbar-toggler-icon {
+    width: 2.5em;
+    height: 2.5em;
+  }
+
+  .nav-link {
+    padding-left: 15px;
+    font-size: 22px;
+    color: white;
+  }
+
+  .nav-link-text {
+    padding-left: 15px;
+    font-size: 22px;
+    color: white;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+  #playerFrame{
+    flex-direction: column;
+   }
+
+  .main-H1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-shadow: 1px 1px 5px black;
+  }
+
+  .box-H1 {
+    padding-top: 30px;
+  }
+
+  .contacts-row {
+    text-align: center;
+    padding-left: 217px;
+    max-width: 100%;
+    padding-bottom: 40px;
+  }
+
+  .contact-H1 {
+    text-align: center;
+    padding: 30px 0 30px 0;
+  }
+
+  .download-button {
+    margin: 0 3% 10% 3%;
+    color: #cbcbcb;
+  }
+
+  .tour-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+    margin-top: 41px;
+    margin-bottom: 50px;
+    opacity: 0.8;
+  }
+
+  .photos {
+    text-align: center;
+  }
+
+  .our-pictures {
+    width: 40%;
+    border-radius: 3%;
+    margin: 10px 20px 20px 10px;
+    opacity: 0.86;
+  }
+
+  /* Lyrics */
+  #lyrics {
+    background-color: black;
+    color: #fff;
+  }
+
+  .container-lyrics {
+    max-width: 100%;
+  }
+
+  .lyrics-row {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border: 1px;
+    border-color: black;
+  }
+
+  .lyrics-row-top {
+    text-align: center;
+    padding-top: 60px;
+    border: 1px;
+    border-color: black;
+  }
+
+  .black {
+    background-color: black;
+    padding: 30px;
+  }
+
+  /* Tour */
+  .background-tour {
+    margin: 5% 10% 5% 10%;
+    position: relative;
+  }
+
+  .h1-tour {
+    text-align: center;
+  }
+
+  .header-shows {
+    text-align: center;
+    margin-top: 5%;
+    color: #cbcbcb;
+  }
+
+  .contact-us {
+    text-align: center;
+    color: #fff;
+  }
+
+  .contacts-row {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .box-h1 {
+    padding-top: 100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .arts {
+    margin: 5% 2% 6% 2%;
+    width: 85%;
+    box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+  }
+
+  .photo-art {
+    text-align: center;
+  }
+
+  .EP-Picture {
+    height: 915px;
+    box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+  }
+
+  .shows-H1 {
+    font-size: 110px;
+    color: #F0F2F0;
+    font-family: 'Futur', sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    text-shadow: 5px 2px 6px #730808;
+    /* background: linear-gradient(to bottom, #210303, #000000); */
+    margin-bottom: 0px;
+  }
+
+  .background-main {
+    position: relative;
+    padding-bottom: 75px;
+    margin-right: 16px;
+    margin-left: 16px;
+  }
+
+  .listen-pics {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  #playerFrame{
+    flex-direction: column;
+   }
+
+  .lyrics-H1 {
+    padding-bottom: 12px;
+    font-size: 110px;
+    color: #F0F2F0;
+    font-family: 'Futur', sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    text-shadow: 5px 2px 6px #730808;
+    background: linear-gradient(to bottom, #220000, black);
+    margin-bottom: 0px;
+  }
+
+  .col-sm {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .head-picture {
+    width: 100%;
+  }
+
+  .container-head {
+    margin-top: 0;
+  }
+
+  .background-head {
+    padding-bottom: 30px;
+  }
+
+  .main-text {
+    padding-top: 75px;
+  }
+
+  .nav-item {
+    border-radius: 15px;
+    background: linear-gradient(to right, #fff, #232526);
+  }
+
+  .active {
+    border-radius: 15px;
+    background: linear-gradient(to right, #fff, #232526);
+  }
+
+  .navbar-nav {
+    border-radius: 25px;
+    padding-right: 687px;
+    opacity: 0.63;
+  }
+
+  .navbar-toggler-main {
+    margin-right: 900px;
+  }
+
+  .navbar-toggler-icon {
+    width: 2.5em;
+    height: 2.5em;
+  }
+
+  .nav-link {
+    padding-left: 15px;
+    font-size: 22px;
+    color: white;
+  }
+
+  .nav-link-text {
+    padding-left: 15px;
+    font-size: 22px;
+    color: white;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .main-H1 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-shadow: 1px 1px 5px black;
+  }
+
+  .box-H1 {
+    padding-top: 30px;
+  }
+
+  .contacts-row {
+    text-align: center;
+    padding-left: 217px;
+    max-width: 100%;
+    padding-bottom: 40px;
+  }
+
+  .contact-H1 {
+    text-align: center;
+    padding: 30px 0 30px 0;
+  }
+
+  .download-button {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: #cbcbcb;
+    font-size: 40px;
+  }
+
+  .tour-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+    margin-top: 41px;
+    margin-bottom: 50px;
+    opacity: 0.8;
+  }
+
+  .photos {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+
+  }
+
+  .our-pictures {
+    width: 40%;
+    border-radius: 3%;
+    margin: 10px 20px 20px 10px;
+    opacity: 0.86;
+  }
+
+  /* Lyrics */
+  #lyrics {
+    background-color: black;
+    color: #fff;
+  }
+
+  .container-lyrics {
+    max-width: 100%;
+  }
+
+  .lyrics-row {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border: 1px;
+    border-color: black;
+  }
+
+  .lyrics-row-top {
+    text-align: center;
+    padding-top: 60px;
+    border: 1px;
+    border-color: black;
+  }
+
+  .black {
+    background-color: black;
+    padding: 30px;
+  }
+
+  /* Tour */
+  .background-tour {
+    margin: 5% 10% 5% 10%;
+    position: relative;
+  }
+
+  .h1-tour {
+    text-align: center;
+  }
+
+  .header-shows {
+    text-align: center;
+    margin-top: 5%;
+    color: #cbcbcb;
+  }
+
+  .contact-us {
+    text-align: center;
+    color: #fff;
+  }
+
+  .contacts-row {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .box-h1 {
+    padding-top: 100px;
+  }
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .arts {
+    margin: 5% 2% 0 2%;
+    width: 40%;
+    box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+  }
+
+  .photo-art {
+    text-align: center;
+  }
+
+  .EP-Picture {
+    height: 420px;
+    box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+  }
+
+  .shows-H1 {
+    font-size: 80px;
+    color: #F0F2F0;
+    font-family: 'Futur', sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    text-shadow: 5px 2px 6px #730808;
+    /* background: linear-gradient(to bottom, #210303, #000000); */
+    margin-bottom: 40px;
+  }
+
+  .listen-pics {
+    text-align: center;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 200%;
+  }
+
+  .lyrics-H1 {
+    padding-bottom: 10px;
+    font-size: 80px;
+    color: #F0F2F0;
+    font-family: 'Futur', sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    text-shadow: 5px 2px 6px #730808;
+    background: linear-gradient(to bottom, #220000, black);
+    margin-bottom: 0px;
+  }
+
+  .head-picture {
+    height: 300px;
+  }
+
+  .container-head {
+    margin-top: 0;
+  }
+
+  .background-head {
+    padding-bottom: 30px;
+  }
+
+  .main-text {
+    text-align: center;
+    padding-top: 100px;
+    line-height: 1.5;
+  }
+
+  .background-main {
+    margin: 0 10% 0 10%;
+    position: relative;
+    padding-bottom: 150px;
+  }
+
+  .tour-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    margin-top: 140px;
+    margin-bottom: 50px;
+  }
+
+  .photos {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+
+  .our-pictures {
+    width: 20%;
+    border-radius: 3%;
+    margin: 10px 20px 20px 10px;
+    opacity: 0.86;
+  }
+
+  h3 {
+    text-align: center;
+    color: #cbcbcb;
+  }
+
+  /* Header */
+  .background-main {
+    margin: 0 10% 0 10%;
+    position: relative;
+    padding-bottom: 8%;
+  }
+
+  .background-head {
+    background-color: black;
+    /* margin: 0 7% 0 7%; */
+    padding-bottom: 300px;
+  }
+  
+ 
+
+  .container-head {
+    margin-top: 200px;
+    text-align: center;
+  }
+
+  .head {
+    text-align: center;
+  }
+
+  .head-picture {
+    height: 300px;
+    /* width: 620px; */
+  }
+
+  .navbar-toggler-main {
+    margin-top: 10px;
+  }
+
+  /* Main */
+  .EP-Picture {
+    height: 390px;
+    box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+  }
+
+  .download-button {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: #cbcbcb;
+    font-size: 25px;
+  }
+
+  .download-button-music {
+    font-size: 12px;
+  }
+
+  .fa-5x {
+    font-size: 54px;
+  }
+
+  .main-H1 {
+    color: #F0F2F0;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black;
+    font-size: 24px;
+    margin-bottom: 52px;
+    padding-top: 92px;
+  }
+
+  .fab-download {
+    color: white;
+  }
+}
+
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1799.98px) {
+  .arts {
+    margin: 5% 2% 0 2%;
+    width: 40%;
+    box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+  }
+
+  .photo-art {
+    text-align: center;
+  }
+
+  .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 24%;
+    height: 45px;
+    margin-right: 3px;
+    margin-left: 3px;
+    /* text-indent: -999px; */
+    cursor: pointer;
+    /* background-color: #fff; */
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.06;
+    transition: opacity .6s ease;
+    text-align: center;
+  }
+
+  .Segments {
+    font-size: 18px;
+    margin-left: 610px;
+    font-weight: 900;
+    margin-top: 10px;
+    text-shadow: 0px 8px 5px #525252;
+    opacity: 0.8;
+  }
+
+  .Chardonnay {
+    font-size: 18px;
+    margin-left: 610px;
+    font-weight: 900;
+    margin-top: 10px;
+    text-shadow: 0px 8px 5px #525252;
+    opacity: 0.8;
+  }
+
+  .nef {
+    font-size: 18px;
+    margin-left: 610px;
+    font-weight: 900;
+    margin-top: 10px;
+    text-shadow: 0px 8px 5px #525252;
+    opacity: 0.8;
+  }
+
+  .InSpiteofYou {
+    font-size: 18px;
+    margin-left: 610px;
+    font-weight: 900;
+    margin-top: 10px;
+    text-shadow: 0px 8px 5px #525252;
+    opacity: 0.8;
+  }
+
+  .FortheLastTime {
+    font-size: 18px;
+    margin-left: 610px;
+    font-weight: 900;
+    margin-top: 10px;
+    text-shadow: 0px 8px 5px #525252;
+    opacity: 0.8;
+  }
+
+  .EP-Picture {
+    height: 420px;
+    box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+  }
+
+  .shows-H1 {
+    font-size: 80px;
+    color: #F0F2F0;
+    font-family: 'Futur', sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    text-shadow: 5px 2px 6px #730808;
+    /* background: linear-gradient(to bottom, #210303, #000000); */
+    margin-bottom: 40px;
+  }
+
+  .listen-pics {
+    text-align: center;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 200%;
+  }
+
+  .lyrics-H1 {
+    padding-bottom: 10px;
+    font-size: 80px;
+    color: #F0F2F0;
+    font-family: 'Futur', sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    text-shadow: 5px 2px 6px #730808;
+    background: linear-gradient(to bottom, #220000, black);
+    margin-bottom: 0px;
+  }
+
+  .head-picture {
+    height: 300px;
+  }
+
+  .container-head {
+    margin-top: 0;
+  }
+
+  .background-head {
+    padding-bottom: 30px;
+  }
+
+  .main-text {
+    text-align: center;
+    padding-top: 100px;
+    line-height: 1.5;
+  }
+
+  .background-main {
+    margin: 0 10% 0 10%;
+    position: relative;
+    padding-bottom: 150px;
+  }
+
+  .tour-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    margin-top: 140px;
+    margin-bottom: 50px;
+  }
+
+  .photos {
+    padding-top: 50px;
+    padding-bottom: 150px;
+    text-align: center;
+  }
+
+  .our-pictures {
+    width: 20%;
+    border-radius: 3%;
+    margin: 10px 20px 20px 10px;
+    opacity: 0.86;
+  }
+
+  h3 {
+    text-align: center;
+    color: #cbcbcb;
+  }
+
+  /* Header */
+  .background-main {
+    margin: 0 10% 0 10%;
+    position: relative;
+    padding-bottom: 8%;
+  }
+
+  .background-head {
+    background-color: black;
+    /* margin: 0 7% 0 7%; */
+    padding-bottom: 300px;
+  }
+
+  .container-head {
+    margin-top: 200px;
+    text-align: center;
+  }
+
+  .head {
+    text-align: center;
+  }
+
+  .head-picture {
+    height: 300px;
+    /* width: 620px; */
+  }
+
+  .navbar-toggler-main {
+    margin-top: 10px;
+  }
+
+  /* Main */
+  .EP-Picture {
+    height: 498px;
+    box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+  }
+
+  .download-button {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: #cbcbcb;
+    font-size: 25px;
+  }
+
+  .download-button-music {
+    font-size: 14px;
+  }
+
+  .fa-5x {
+    font-size: 54px;
+  }
+
+  .main-H1 {
+    color: #F0F2F0;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px black;
+
+    font-size: 31px;
+        margin-bottom: 90px;
+    padding-top: 92px;
+  }
+
+  .fab-download {
+    color: white;
+  }
+}
+
+
+
+
+@media (min-width: 1800px) {
+  .arts {
+    margin: 5% 2% 0 2%;
+    width: 40%;
+    box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+  }
+
+  .photo-art {
+    text-align: center;
+  }
+
+  .EP-Picture {
+    height: 750px;
+    box-shadow: 0px 0px 37px 24px rgba(0, 0, 0, 0.52);
+  }
+
+  .listen-pics {
+    text-align: center;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 200%;
+  }
+
+  .shows-H1 {
+    font-size: 110px;
+    color: #F0F2F0;
+    font-family: 'Futur', sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    text-shadow: 5px 2px 6px #730808;
+    /* background: linear-gradient(to bottom, #210303, #000000); */
+    margin-bottom: 40px;
+  }
+
+  .lyrics-H1 {
+    padding-bottom: 12px;
+    font-size: 110px;
+    color: #F0F2F0;
+    font-family: 'Futur', sans-serif;
+    font-weight: bold;
+    padding-top: 25px;
+    text-align: center;
+    text-shadow: 5px 2px 6px #730808;
+    background: linear-gradient(to bottom, #220000, black);
+    margin-bottom: 0px;
+  }
+
+  .head-picture {
+    height: 300px;
+  }
+
+  .container-head {
+    margin-top: 0;
+  }
+
+  .background-head {
+    padding-bottom: 30px;
+  }
+
+  .download-button {
+    margin-top: 140px;
+    margin-bottom: 20px;
+    color: #cbcbcb;
+    font-size: 35px;
+  }
+
+  .main-text {
+    padding-top: 100px;
+  }
+
+  .main-H1 {
+    padding-top: 200px;
+    padding-bottom: 110px;
+    text-shadow: 1px 1px 5px black;
+  }
+
+  .background-main {
+    margin: 0 10% 0 10%;
+    position: relative;
+    padding-bottom: 150px;
+  }
+
+  .tour-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 66%;
+    margin-top: 140px;
+    margin-bottom: 50px;
+  }
+
+  .photos {
+    padding-top: 50px;
+    padding-bottom: 150px;
+    text-align: center;
+  }
+
+  .our-pictures {
+    width: 21%;
+    border-radius: 3%;
+    margin: 10px 20px 20px 10px;
+    opacity: 0.86;
+  }
+
+  .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 24%;
+    height: 45px;
+    margin-right: 3px;
+    margin-left: 3px;
+    /* text-indent: -999px; */
+    cursor: pointer;
+    /* background-color: #fff; */
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: 0.06;
+    transition: opacity .6s ease;
+    text-align: center;
+  }
+
+  .Segments {
+    font-size: 1.6rem;
+    margin-left: 660px;
+    font-weight: 900;
+    margin-top: 4px;
+    text-shadow: 0px 8px 5px #525252;
+    opacity: 0.8;
+  }
+
+  .Chardonnay {
+    font-size: 1.6rem;
+    margin-left: 660px;
+    font-weight: 900;
+    margin-top: 4px;
+    text-shadow: 0px 8px 5px #525252;
+    opacity: 0.8;
+  }
+
+  .nef {
+    font-size: 1.6rem;
+    margin-left: 660px;
+    font-weight: 900;
+    margin-top: 4px;
+    text-shadow: 0px 8px 5px #525252;
+    opacity: 0.8;
+  }
+
+  .InSpiteofYou {
+    font-size: 1.6rem;
+    margin-left: 660px;
+    font-weight: 900;
+    margin-top: 4px;
+    text-shadow: 0px 8px 5px #525252;
+    opacity: 0.8;
+  }
+
+  .FortheLastTime {
+    font-size: 1.6rem;
+    margin-left: 660px;
+    font-weight: 900;
+    margin-top: 4px;
+    text-shadow: 0px 8px 5px #525252;
+    opacity: 0.8;
+  }
+
+  h5 {
+    margin-bottom: 0px;
+    padding-top: 4px;
+  }
+
+  .contacts-row {
+    text-align: center;
+  }
+
+  .box-h1 {
+    margin-top: 0px;
+    padding-top: 120px;
+  }
+}
+
+.contacts-row {
+  text-align: center;
+}
+
+.box-h1 {
+  margin-top: 0px;
+  padding-top: 120px;
+}
